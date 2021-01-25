@@ -7,15 +7,9 @@ import java.util.Scanner;
 public class Launch {
     public static void main(String[] args) {
         /*
-        The array goes through 4 stages:
-        1. Initialization.
-        2. Removing duplicates (zeroing).
-        3. Sorting in increasing order.
-        4. Overwriting into a new array with a size equal to the number of unique elements
-           (zeros formed in the process of removing duplicates are not transferred to the new array)
-        *5* all 4 stages will be displayed on the screen.
-                                    Attention!
-           The method works on the entire range of Int (negative too)
+     Есть массив целых числел.
+	Необходимо удалить дубликаты из массива и отсортировать.
+	На вход метод будет получать первоначальный массив, на выход метод будет возвращать отсортированный массив без дубликатов.
          */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
